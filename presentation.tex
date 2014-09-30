@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis/dissertation template
+%   Department of Logistics
+%   Stellenbosch University
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[serif,11pt]{beamer}
+\usepackage[ruled, linesnumbered,vlined]{algorithm2e}
+\usepackage{epsfig, subfigure, amssymb, multirow, algorithmic,amsmath}
+\usetheme{Warsaw}
+\usepackage{multirow}
+\newcommand*{\superscript}[1]{\ensuremath{^{\rm #1}}}
+\newcommand*{\subscript}[1]{\ensuremath{_{\rm #1}}}
+
+%%%%%%%%%%%%%%%%%%
+%
+% thesis details
+%
+%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title[{\sc The short title of your thesis } \hspace{0.8cm} \insertframenumber/\inserttotalframenumber]{{\sc The title of your thesis or dissertation should be typed here }}
+\author[Presentation to some students --- {\sc  May 3\superscript{rd}, 2012}]{{Student name}}
+\date{3 May 2014}
+\institute{Operations Research \\ in the Department of Logistics \\ University of Stellenbosch, South Africa}
+
+\begin{frame}
+\begin{center}
+\vspace{0.1cm}
+\includegraphics[scale=0.25]{USlogo.pdf}
+\end{center}
+\titlepage
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%
+%
+% how-to examples:
+%
+%%%%%%%%%%%%%%%%%%
+
+\input{examples/preliminaries}
+
+\input{examples/figures}
+
+\input{examples/algorithms}
+
+\input{examples/bib}
+
+%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
