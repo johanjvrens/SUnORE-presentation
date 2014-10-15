@@ -4,9 +4,19 @@
 %   Stellenbosch University
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[serif,11pt]{beamer}
-\usepackage[ruled, linesnumbered,vlined]{algorithm2e}
-\usepackage{epsfig, subfigure, amssymb, multirow, algorithmic,amsmath}
-\usetheme{Warsaw}
+\usepackage[ruled, linesnumbered, vlined]{algorithm2e}
+\usepackage{epsfig, subfigure, amssymb, multirow, algorithmic, amsmath}
+
+%%%%%%%%%%%%%%%%%%
+%
+% theme and color
+%
+%%%%%%%%%%%%%%%%%%
+\usetheme{Warsaw} %Themes http://www.hartwork.org/beamer-theme-matrix/
+\definecolor{stelliesColor1}{RGB}{96, 34, 59}
+\definecolor{stelliesColor2}{RGB}{140, 151, 154}
+\setbeamercolor{structure}{fg=stelliesColor1!100!stelliesColor2}
+
 \usepackage{multirow}
 \newcommand*{\superscript}[1]{\ensuremath{^{\rm #1}}}
 \newcommand*{\subscript}[1]{\ensuremath{_{\rm #1}}}
