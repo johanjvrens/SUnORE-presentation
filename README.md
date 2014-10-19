@@ -12,3 +12,4 @@ https://www.sharelatex.com/learn/Beamer#Customizing_your_presentation
 http://tex.stackexchange.com/questions/130464/what-are-structural-elements-customizing-the-mechnism-of-beamer-color-theme
 http://tex.stackexchange.com/questions/38208/beamer-create-own-headline-theme
 http://tex.stackexchange.com/questions/85439/custom-headline-in-latex-beamer
+http://www.latex-project.org/lppl.txt
