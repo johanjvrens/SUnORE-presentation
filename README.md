@@ -1,4 +1,4 @@
-stellenbosch-presentation
+SUnORG Presentation
 =========================
 
 Stellenbosch starter Latex presentation template
