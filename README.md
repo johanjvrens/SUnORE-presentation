@@ -1,7 +1,7 @@
 SUnORE Presentation
 =========================
 
-Stellenbosch starter Latex presentation template
+SUnORE starter Latex presentation template
 
 <p align="center"><img src="https://raw.githubusercontent.com/johanjvrens/stellenbosch-presentation/master/examples/example_1.png"></p>
 
