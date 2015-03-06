@@ -1,10 +1,8 @@
-SUnORE Presentation
-=========================
-# [Thesis Starter Template](http://sunore.co.za/)
+# [Presentation Starter Template](http://sunore.co.za/)
 
 SUnORE-presentation is a Latex starter template that will help you make a better presentations.
 
-* Source: [https://sunore.co.za/SUnORE-presentation](https://github.com/johanjvrens/SUnORE-presentation)
+* Source: [http://sunore.co.za/SUnORE-presentation](http://sunore.co.za/SUnORE-presentation)
 * Homepage: [http://sunore.co.za/](http://sunore.co.za/)
 * Documentation: [http://sunore.co.za/docs/](http://sunore.co.za/blog/)
 
