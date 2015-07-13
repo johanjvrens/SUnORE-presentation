@@ -42,9 +42,13 @@ filename  := "presentation"
 all:
 	make clean
 	make pdf
+	make show
 
 pdf:
 	pdflatex -synctex=1 -interaction=nonstopmode ${filename}.tex
+
+show:
+	open ${filename}.pdf
 
 clean:
 	rm -f $(LATEXFILES)
