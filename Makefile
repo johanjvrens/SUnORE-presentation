@@ -54,4 +54,4 @@ clean:
 	rm -f $(LATEXFILES)
 	rm -f ${filename}.pdf
 
-.PHONY: all pdf view check clean code
+.PHONY: all pdf show clean
