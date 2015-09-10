@@ -1,19 +1,20 @@
-%===========================================================================================
-% Template Name:      SUnORE Starter Presentation Theme
+%===============================================================================
+% Template Name:      SUnORE Starter Presentation template
 % Template URI:       http://sunore.co.za/sunore-presentation/
 % Description:        Starter Presentation template for SUnORE 
-%                     Department of Industrial Engineering, Stellenbosch University
-% Version:            1.0.2
+%                     Department of Industrial Engineering, 
+%                     Stellenbosch University
+% Version:            1.1.0
 % Author:             Johan Janse van Rensburg
 % Author URI:         http://johanjvrens.co.za/
 % License:            MIT License
 % License URI:        http://opensource.org/licenses/MIT
-%===========================================================================================
+%===============================================================================
 \documentclass[serif,11pt]{beamer}
 
-%=============================================
+%=================================================
 % theme and color
-%=============================================
+%=================================================
 \usetheme{Warsaw} %Themes http://www.hartwork.org/beamer-theme-matrix/
 \definecolor{colorA}{RGB}{96, 34, 59}
 \definecolor{colorB}{RGB}{140, 151, 154}
@@ -23,30 +24,30 @@
 %\setbeamercolor{secsubsec}{fg=secinhead,bg=black}
 %\setbeamercolor{frametitle}{fg=secinhead,bg=titlebg}
 
-%=============================================
+%=================================================
 % packages and new commands
-%=============================================
+%=================================================
 \usepackage[ruled, linesnumbered, vlined]{algorithm2e}
 \usepackage{epsfig, subfigure, amssymb, multirow, algorithmic, amsmath}
 \newcommand*{\superscript}[1]{\ensuremath{^{\rm #1}}}
 \newcommand*{\subscript}[1]{\ensuremath{_{\rm #1}}}
 
-%=============================================
+%=================================================
 % thesis details (preamble)
-%=============================================
+%=================================================
 \title[{\sc The short title of your thesis } \hspace{0.8cm} \insertframenumber/\inserttotalframenumber]{{\sc The title of your thesis or dissertation should be typed here }}
 \author[Presentation to some students --- {\sc Feb 10\superscript{th}, 2015}]{{Student name}}
 \date{10 Feb 2015}
 \institute{Operations Research Group \\ Department of Industrial Engineering \\ Stellenbosch University, South Africa}
 
-%=============================================
+%=================================================
 % start presentation
-%=============================================
+%=================================================
 \begin{document}
 
-%======================
+%========================
 % title page
-%======================
+%========================
 \begin{frame}
   \begin{center}
     \vspace{0.1cm}
@@ -55,14 +56,14 @@
   \titlepage
 \end{frame}
 
-%======================
+%========================
 % your slides:
-%======================
+%========================
 \input{slides/overview}
 
-%======================
+%========================
 % example slides:
-%======================
+%========================
 \input{examples/lists}
 \input{examples/columns}
 \input{examples/figures}
@@ -75,8 +76,12 @@
 \input{examples/hyperlinks}
 \input{examples/algorithms}
 
-%======================
+%========================
+% bibliography
+%========================
 \input{slides/bib}
 
-%=============================================
+%=================================================
+% end presentation
+%=================================================
 \end{document}
